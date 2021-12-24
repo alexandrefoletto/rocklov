@@ -1,0 +1,8 @@
+{
+    "payload":{
+        "name": "Piano de cauda",
+        "category": "Teclas",
+        "price": 500
+    },
+    "thumb": "piano.png"
+}
