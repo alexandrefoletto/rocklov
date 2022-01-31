@@ -19,7 +19,7 @@ Resource    pages/DashPage.robot
 *Keywords*
 Start Session
     # New Browser     firefox    False
-    New Browser     chromium    False       slowMo=00:00:03
+    New Browser     chromium    headless=${headless}       slowMo=00:00:00.05
     # New Page        https://rocklov-foletto-web.herokuapp.com/
     New Page        about:blank
     Set Viewport Size       1920    1080
