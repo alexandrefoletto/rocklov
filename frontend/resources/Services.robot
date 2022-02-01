@@ -43,6 +43,5 @@ POST Equipo Service
     ...            data=${equipo}
     ...            headers=${headers}
     ...            files=${thumbnail}
-    ...            expected_status=any
 
     [Return]    ${response}
